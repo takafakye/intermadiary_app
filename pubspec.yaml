@@ -1,0 +1,33 @@
+name: onboarding_screen_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+    flutter_icons: ^1.1.0
+  cupertino_icons: ^1.0.0
+
+  introduction_screen: ^1.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+fonts:
+  - family: 'tinos'
+    fonts:
+      - asset: fonts/Tinos-Italic.ttf
+
+  - family: Kaushan
+    fonts:
+      - asset: fonts/KaushanScript-Regular.ttf
